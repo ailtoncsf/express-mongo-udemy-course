@@ -5,8 +5,6 @@ const express = require('express')
 const server= express()
 const allowCors = require('./cors')
 
-
-
 //middleware 
 server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
